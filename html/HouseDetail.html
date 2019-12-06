@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>B-Green</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/HouseDetail.css">
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg ">
+        <a class="navbar-brand" id="Main" style="color:white">B-Green</a>
+        <ul class="nav ml-auto">
+            <li>
+                <a href="Help.html"><i class="fas fa-question-circle mt-1 mr-4  fa-2x" style="color: white"></i></a>
+            </li>
+            <li>
+                <a id="ProfileButton" href="Profile.html"><i class="fas fa-user mt-1 mr-4" style="color:white;font-size: 30px;"></i></a>
+            </li>
+            <li>
+                <a id="LogOut" href="../index.html"><button class="btn btn-outline-light mr-2" type="button">Log Out</button></a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <div class="container" id="principal">
+        <div class="jumbotron"> 
+            <h1 id="Name">House</h1>
+            <hr/>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="../Imagens/casanatureza.png" id="Image">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 textos">
+                    <div class="row texto">
+                        <span><strong>Price:</strong></span>
+                        <span class="dados" id="Price"></span>
+                    </div>
+                    <div class="edit d-none">
+                        <span><strong>Price:</strong></span>
+                        <input class="form-control" type="text" placeholder="Price" id="PriceInput">
+                    </div>
+                    <div class="row texto">
+                        <span><strong>Rooms:</strong></span>
+                        <span class="dados" id="Rooms"></span>
+                    </div>
+                    <div class="edit d-none">
+                        <span><strong>Rooms:</strong></span>
+                        <input class="form-control" type="text" placeholder="Rooms" id="RoomsInput">
+                    </div>
+                    </br>
+                    <div class="row texto">
+                        <span><strong>Rating:</strong></span>
+                        <span class="dados" id="Rating"></span>
+                    </div>
+                    </br>
+                    <div class="row texto">
+                        <span><strong>Description:</strong></span>
+                        <span id="Description"></span>
+                    </div>
+                    <div class="edit d-none">
+                        <span><strong>Description:</strong></span>
+                        <textarea class="form-control" id="DescriptionInput"
+                            placeholder="Change your description..."></textarea>
+                    </div>
+                    </br>
+                </div>
+            </div>
+            <hr />
+            <div class="container" style="margin-top:5%;">
+                <h5>Local</h5>
+                <iframe class="myFrame" style="width: 60%;"
+                    ></iframe>
+            </div>
+            <hr />
+            <h5 style="margin-top:5%;">Owner Information</h5>
+            <div class="container" style="margin-top:1%;">
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <p>Name</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <p>Contact</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <pi> Email</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <p id="ownername">Name</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <p id="ownercontact">Contact</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <p id="owneremail">Email</p>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="row d-none" id="RateDiv" style="margin-bottom:5%;">
+                </br>
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                </div>
+                <button type="button" id="RateButton" class="btn btn-outline-warning">Rate</button>
+
+
+
+
+
+            </div>
+
+
+            <button class="d-none btn btn-success" id="Edit">Edit</button>
+            <button class="d-none btn btn-success" id="SaveEdit">Save Changes</button>
+            <button class="d-none btn btn-success" id="File">Send File</button>
+            <button class="d-none btn btn-success" id="BuyButton">Buy</button>
+            <div class="row" id="Admin">
+                <button class="d-none btn btn-success" id="Validate">Validate</button>
+                <button class="d-none btn btn-danger mr-2" id="Remove">Remove</button>
+            </div>    
+        </div>
+
+        <div class="modal" id="Inspector" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Send File</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <textarea sytle="width: 200px; height: 150px; resize: none;" class="form-control" placeholder="Write the inspection here..."
+                            id="WriteFile"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="FileChanges" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="Client" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Purchase</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" >
+                            <h1 style="text-align: center">Confirm your purchase</h1>
+                            <hr/>
+                            Credit Card<input class="form-control" placeholder="Credit card...">
+                            Password<input class="form-control" type="password" placeholder="Password">
+                
+                
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" id="Buy" class="btn btn-primary">Finish Payment</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../script/LocalStorage.js"></script> 
+    <script src="../script/HouseDetail.js"></script> 
+    <script src="../script/LogOut.js"></script>
+    <script src="../script/Logo.js"></script>
+    <script src="../script/ProfileButton.js"></script>
+</body>
+
+</html>

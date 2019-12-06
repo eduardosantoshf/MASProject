@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>B-Green</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/Register.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="../index.html" style="color:white">B-Green</a>
+        <ul class="nav ml-auto">
+            <li>
+                <a href="Help.html"><i class="fas fa-question-circle mt-1 mr-4  fa-2x" style="color: white"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <img src="../Imagens/casanatureza.png" id="topimage" style="z-index: -1;position: fixed;width: 100%; top: -200px;height: 950px;">
+      
+    <div class="container">
+        <div id="div">
+            <!-- <form action="" method="GET">
+                <label for="Username"> User </label>
+                <input type="text" class="form-control" placeholder="Username" id="Username">
+                </br>
+                <label for="Password"> Password</label>
+                <input type="password" class="form-control" placeholder="Password" id="Password">
+                <button type="button" class="btn btn-primary" id="Login">Login </button>
+            </form> -->
+
+
+            <form action="" method="GET" >
+                <label for="Username"> User </label>
+                <input type="text" class="form-control grandes" placeholder="Username" id="Username" name="Username">
+                <br/>
+                <label for="FullName"> Full Name </label>
+                <input type="text" class="form-control grandes " placeholder="Full Name" id="FullName" name="FullName">
+                <br/>
+                <label for="Email"> Email </label>
+                <input type="email" class="form-control grandes" placeholder="Email" id="Email" name="Email">
+                <br/>
+                <label for="Password"> Password </label>
+                <div class="row mx-1">                    
+                    <input type="password" class="form-control col-5" placeholder="Password" id="Password"
+                    name="Password">
+                    <input type="password" class="form-control offset-2 col-5" placeholder="Confirm" id="Confirm"
+                    name="Confirm">                    
+                </div>  
+                <br/>            
+                <div class="form-check-inline">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-inline" id="Owner" name="AccountType" value="Owner">Owner
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-inline" id="Client" name="AccountType" value="Client">Client
+                    </label>
+                </div>
+                <button type="button" class="btn btn-primary" id="Register" >Register</button>
+            </form>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../script/LocalStorage.js"></script>
+    <script src="../script/Register.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>B-Green</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/Owner-add.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg ">
+        <a class="navbar-brand" id="Main" style="color:white">B-Green</a>
+        <ul class="nav ml-auto">
+            <li>
+                <a href="Help.html"><i class="fas fa-question-circle mt-1 mr-4  fa-2x" style="color: white"></i></a>
+            </li>
+            <li>
+                <a id="ProfileButton" href="Profile.html"><i class="fas fa-user mt-1 mr-4" style="color:white;font-size: 30px;"></i></a>
+            </li>
+            <li>
+                <a id="LogOut" href="../index.html"><button class="btn btn-outline-light mr-2" type="button">Log Out</button></a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+
+    <div class="container">
+
+        <h1 style="font-weight: bold">Add Activity</h1>
+
+        <label for="Title">Title : </label>
+        <input type="text" id="Title" class="form-control" placeholder="Title">
+        <label for="Local">Local : </label>
+        <img src="https://topekacivictheatre.com/wp-content/uploads/2019/01/no-image.jpg" id="imagem">
+        <input type="text" class="form-control" id="Local" placeholder="Local">
+        <label for="Space">Space:</label>
+        <input type="text" class="form-control" id="Space" placeholder="Space">
+        <label for="Date">Date:</label>
+        <input type="date" id="date" class="form-control">
+        <label for="Price">Price:</label>
+        <input type="text" id="Price" class="form-control" placeholder="Price">
+
+        <textarea name="Description" id="Description" class="form-control" placeholder="Description"></textarea>
+        <input type="text" id="imageUrl" class="form-control" placeholder="Image Url...">
+
+        <button type="button" id="add" class="btn btn-primary">Add</button>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../script/LocalStorage.js"></script>
+    <script src="../script/Owner-add-activity.js"></script>
+    <script src="../script/LogOut.js"></script>
+    <script src="../script/Logo.js"></script>
+    <script src="../script/ProfileButton.js"></script>
+</body>
+
+</html>
