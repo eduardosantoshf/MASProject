@@ -1,0 +1,50 @@
+body{
+    background-image: url("../Imagens/casanatureza.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+}
+
+.navbar{
+    background-color: rgb(28,24,22);
+
+}
+
+.container{
+    text-align: left;
+    position: relative;
+    top:120px;
+    
+}
+
+
+input{
+    margin-top:0px;
+}
+
+
+#div{
+    width: 50%;
+    margin:auto;
+    background-color:white;
+    padding: 30px;
+}
+
+label{
+    display: inline-block;
+    width: 50px;
+    text-align: left;
+    font-size: 20px;
+    color:darkcyan;
+}
+
+button{
+    margin-top: 15px;
+}
+
+
+#Register{
+    text-align: right;
+
+}

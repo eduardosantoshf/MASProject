@@ -1,0 +1,13 @@
+#searchUser{
+    width: 40%;
+}
+#searchButton{
+    background-color: green;
+}
+.user{
+    background-color: rgb(241, 241, 241);
+    width: 90%;
+    height: 100%;
+
+    border-radius:10px;
+}

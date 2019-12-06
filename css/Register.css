@@ -1,0 +1,76 @@
+
+
+
+.navbar{
+    background-color: rgb(28,24,22);
+
+}
+
+.container{
+    text-align: left;
+    position: relative;
+    top:120px;
+    
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    font-size: 20px;
+    color:darkcyan;
+}
+body, html {
+    height: 100%;
+}
+#div{
+    width: 50%;
+    margin:auto;
+    background-color:white;
+    padding: 30px;
+}
+
+input{
+    margin-top:0px;
+}
+
+
+
+
+
+/* 
+@media (max-width: 768px) and (min-width: 425px) {
+    .pequenos{
+        width: 40%;
+    }
+    #div {
+        width: 90%;
+    }
+}
+
+@media (max-width: 425px) {
+    #div {
+        width: 90%;
+    }
+    .pequenos{
+        width: 30%;
+    }
+} */
+
+/* 
+  .grandes{
+    width: 84%;
+
+} 
+
+.form-control{
+    margin: 20px;
+    
+}
+ .pequenos{
+    width: 35%;
+    margin-right: 10%;
+}  */
+
+button{
+    margin-top:20px;
+}

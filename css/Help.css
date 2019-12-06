@@ -1,0 +1,68 @@
+.navbar{
+    background-color: rgb(28,24,22);
+
+}
+.sidebar{
+    background-color: rgb(228, 228, 228);
+    position: fixed;
+    width: 15%;
+    float: left;
+
+}
+.scrolled{
+    top: -56px;
+}
+.sidebar-button{
+    text-align: center;
+    width: 100%;
+    height: 5%;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+.botao{
+    width: 30%;
+    height: 100px;
+    background-color:white;
+    margin: 5%;
+    border-width:1px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 1%;
+    vertical-align: middle;
+}
+
+textarea{
+    min-height: 60px;
+    min-width: 30%;
+    overflow-y: auto;
+    word-wrap:break-word;
+    resize: none; 
+}
+.buttontext{
+    width: 50%;
+    height: 50%;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+
+}
+.botao:active:hover{
+    background-color:lightgreen;
+}
+.buttonimg{
+    width: 100%;
+    height: 100%;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+i:hover{
+    cursor: pointer;
+}
+#home:hover{
+    cursor: pointer;
+}

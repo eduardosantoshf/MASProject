@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://cms.hostelworld.com/hwblog/wp-content/uploads/sites/2/2014/05/101-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.table-img{
+    width: 50px;
+    height: 50px;
+}
+table{background-color: white;}
+.navbar{
+    background-color: rgb(28,24,22);
+
+}
+.container{
+    margin-top:5%;
+    
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.fa-info-circle {
+    font-size: 25px;
+}

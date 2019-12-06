@@ -1,0 +1,29 @@
+body{
+    background-image: url(https://www.congo-bongo.com/vacation/fotos/2/1541444617715a03075ac696b3416858e1d3829a9d/154144465022099c9920e86ef76f0a4fe948aeb081.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.table-img{
+    width: 50px;
+    height: 50px;
+}
+.navbar{
+    background-color: rgb(28,24,22);
+
+}
+.user{
+    background-color: rgb(241, 241, 241);
+    width: 90%;
+    height: 100%;
+    border-radius:10px;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.fa-star{
+    cursor: default;
+}
