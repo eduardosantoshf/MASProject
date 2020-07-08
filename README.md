@@ -14,6 +14,6 @@ The following steps were made as part of the project objectives:
 * Implementation
 
 ## Authors
-* **Bruno Bastos**
+* **Bruno Bastos**: [BrunosBastos](https://github.com/BrunosBastos)
 * **Eduardo Santos**: [eduardosantoshf](https://github.com/eduardosantoshf)
 * **Gonçalo Pereira**
